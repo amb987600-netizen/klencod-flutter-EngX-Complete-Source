@@ -1,0 +1,20 @@
+{
+	"appId": "com.engx.maintenance",
+	"appName": "EngX",
+	"webDir": "dist",
+	"android": {
+		"allowMixedContent": false
+	},
+	"plugins": {
+		"LocalNotifications": {
+			"smallIcon": "ic_stat_engx",
+			"iconColor": "#1FA39A"
+		}
+	},
+	"packageClassList": [
+		"AppPlugin",
+		"FilesystemPlugin",
+		"LocalNotificationsPlugin",
+		"SharePlugin"
+	]
+}
